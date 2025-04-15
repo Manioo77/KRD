@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+:root {
+	--mainColor: #003054;
+	--secondaryColor: #e40321;
+	--lightColor: #d3d3d3;
+	--whiteColor: #ffffff;
+
+	--bigText: 1.625rem;
+	--middleText: 1.25rem;
+	--smallText: 1.125rem;
+	--extraSmallText: 0.875rem;
+}
+
+@media (max-width: 1400px) {
+	:root {
+		--bigText: 1.25rem;
+		--middleText: 1.125rem;
+		--smallText: 0.875rem;
+		--extraSmallText: 0.75rem;
+	}
+}
+
+@media (max-width: 768px) {
+	:root {
+		--bigText: 1.125rem;
+		--middleText: 0.75rem;
+		--smallText: 0.75rem;
+	}
+}
+
+@media (max-width: 576px) {
+	:root {
+		--bigText: 0.75rem;
+		--extraSmallText: 0.7rem;
+	}
+}
